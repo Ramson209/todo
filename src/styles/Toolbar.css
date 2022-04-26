@@ -1,0 +1,50 @@
+.toolbar {
+	width: 100%;
+	display: flex;
+	background-color: var(--white);
+	align-items: center;
+	justify-content: space-between;
+	color: var(--secondaryLightDark);
+	padding: 12px;
+}
+
+.toolbar * {
+	color: inherit;
+}
+.toolbar__btn {
+	cursor: pointer;
+	padding: 3px 6px;
+	border-radius: 2px;
+	transition: color 0.4s;
+	backface-visibility: hidden;
+	border: 1px solid var(--white);
+}
+.toolbar__btn:hover {
+	border: 1px solid var(--tertiaryLight--1);
+}
+.toolbar__actions > * {
+	margin-right: 11px;
+}
+.toolbar__clearBtn {
+	cursor: pointer;
+}
+
+.toolbar__clearBtn:hover {
+	text-decoration: underline;
+}
+
+.active {
+	border: 1px solid var(--tertiaryLight);
+}
+.toolbar__footer {
+	height: 5px;
+	background-color: var(--white);
+	border: 1px solid var(--taskBottom);
+	box-shadow: 6px 30px 60px var(--boxShadowColor);
+}
+.toolbar__footer--1 {
+	width: 99%;
+}
+.toolbar__footer--2 {
+	width: 97%;
+}

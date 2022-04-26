@@ -1,0 +1,8 @@
+.header {
+	margin-top: 10px;
+}
+
+.header__text {
+	color: var(--tertiaryDark);
+	font-size: 100px;
+}
